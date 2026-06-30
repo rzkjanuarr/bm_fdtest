@@ -1,0 +1,45 @@
+{
+  "$comment": "Aligned with marifatun-template-html/dashboard/config/sidebar-nav.json. SPA resolves links via `nav` keys (see navPathMap.ts). Optional label_key values are suffixed under back-desk.sidebar-panel in i18n JSON.",
+  "groups": [
+    {
+      "index": 0,
+      "label": "General",
+      "items": [
+        {
+          "index": 0,
+          "label": "Dashboard",
+          "label_key": "nav.dashboard",
+          "href": "/dashboard",
+          "nav": "dashboard",
+          "icon": "<svg viewBox='0 0 24 24' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><rect x='3' y='3' width='7' height='9'/><rect x='14' y='3' width='7' height='5'/><rect x='14' y='12' width='7' height='9'/><rect x='3' y='16' width='7' height='5'/></svg>",
+          "count": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "Management",
+      "label_key": "group.management",
+      "items": [
+        {
+          "index": 0,
+          "label": "User",
+          "label_key": "nav.user",
+          "href": "/user",
+          "nav": "user",
+          "icon": "<svg viewBox='0 0 24 24' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'/><circle cx='9' cy='7' r='4'/><path d='M23 21v-2a4 4 0 0 0-3-3.87'/><path d='M16 3.13a4 4 0 0 1 0 7.75'/></svg>",
+          "count": null
+        },
+        {
+          "index": 1,
+          "label": "Buku",
+          "label_key": "nav.book",
+          "href": "/book",
+          "nav": "book",
+          "icon": "<svg viewBox='0 0 24 24' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'><path d='M4 19.5A2.5 2.5 0 0 1 6.5 17H20'/><path d='M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z'/></svg>",
+          "count": null
+        }
+      ]
+    }
+  ]
+}

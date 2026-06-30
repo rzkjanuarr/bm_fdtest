@@ -53,7 +53,7 @@ docker-compose up -d
 ### 4. Jalankan Migrasi Database
 Setelah container berjalan, jalankan migrasi:
 ```bash
-php artisan migrate
+docker-compose exec app php artisan migrate:fresh --seed
 ```
 
 ### 5. Build Assets & Jalankan Vite Dev Server

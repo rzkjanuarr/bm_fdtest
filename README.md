@@ -101,13 +101,14 @@ Akses di browser: `http://127.0.0.1:8000`
 ---
 
 ## Fitur Utama
-- ✅ **Autentikasi** (Login, Register, Logout, Email Verification, Forgot Password, Change Password)
+- ✅ **Autentikasi** (Login, Register, Logout, Forgot Password)
 - ✅ **Dashboard** dengan statistik dan chart user & buku
-- ✅ **Manajemen User** (CRUD, Filter, Search, Role: HRD/Employee, Email Verification Status)
+- ✅ **Manajemen User** (CRUD, Filter, Search, Role: Super Admin/User)
 - ✅ **Manajemen Buku** (CRUD, Filter, Search, Rating 1-5)
 - ✅ **Toast Notifications**
 - ✅ **Responsive Design**
-- ✅ **Data limit 100 per page**
+- ✅ **Data Pagination**
+- ✅ **Soft Delete**
 
 ---
 
